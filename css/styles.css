@@ -14,7 +14,7 @@ body {
 
 @media (min-width: 768px) {
   .navbar-brand {
-    margin-right: 100px;
+    margin-right: 50px;
     margin-left: 100px;
   }
 }
@@ -101,7 +101,7 @@ body {
 }
 
 #aboutme {
-  height: auto;
+  height: 75vh;
   width: 100%;
   position: relative;
 }
@@ -194,4 +194,3 @@ img.wrap {
   position: relative;
   height: 25vh;
 }
-
