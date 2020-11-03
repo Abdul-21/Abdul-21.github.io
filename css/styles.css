@@ -193,9 +193,3 @@ img.wrap {
   background-color: #FFF !important;
   transition: background-color 500ms linear;
 }
-
-.footer-basic {
-  width: 100%;
-  position: relative;
-  height: 25vh;
-}
