@@ -1,8 +1,11 @@
 .footer-basic {
+  width: 100%;
+  height: auto;
+  position: relative;
+  height: 25vh;
   padding: 40px 0;
   background-color: #ffffff;
   color: #4b4c4d;
-  height: 25vh;
 }
 
 .footer-basic ul {
@@ -11,7 +14,6 @@
   text-align: center;
   font-size: 16px;
   line-height: 1.6;
-  padding-left: 60px;
   margin-bottom: 0;
 }
 
@@ -31,19 +33,17 @@
 
 .footer-basic .social {
   text-align: center;
-  padding-bottom: 25px;
+  padding-right: 15px;
+  padding-bottom: 15px;
 }
 
 .footer-basic .social > a {
-  font-size: 24px;
-  width: 40px;
-  height: 40px;
+  font-size: 36px;
+  width: 50px;
+  height: 50px;
   line-height: 40px;
   display: inline-block;
-  text-align: center;
-  border-radius: 50%;
-  border: 1px solid #cccccc;
-  margin: 0 8px;
+  margin: 0 15px;
   color: inherit;
   opacity: 0.75;
 }
@@ -55,7 +55,7 @@
 .footer-basic .copyright {
   margin-top: 15px;
   text-align: center;
-  font-size: 13px;
+  font-size: 50px;
   color: #aaa;
   margin-bottom: 0;
 }
