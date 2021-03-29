@@ -18,3 +18,11 @@ targets.forEach(target => {
     .from(target, {opacity: 0, duration: 0.2}, 0)
     .to(target, {opacity: 0, duration: 0.2}, 0.8)
   });
+
+  targets.forEach(target => {
+    const tl = gsap.timeline({
+        defaults: {duration: 1.2}
+    })
+    .from(target,{x:0, opacity: 0, duration: .5})
+    .to(target,{ left:"50%", top:"50%", opacity: 1, duration: .5, ease:Power2.easeIn})
+  });
