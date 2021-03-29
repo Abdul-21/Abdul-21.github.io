@@ -60,11 +60,6 @@ body {
   }
 }
 
-.navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show > .nav-link {
-  /* color: rgb(34,34,34); */
-  /* color: white; */
-}
-
 .navbar.navbar-light.navbar-expand-md {
   position: fixed;
   width: 100%;
@@ -100,10 +95,7 @@ body {
   left: calc(50% - 16px);
   top: calc(100% - 6vh);
 }
-/* 
-.nav-links {
-  color: rgb(34,34,34);;
-} */
+
 
 #aboutme {
   height: 75vh;
