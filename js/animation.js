@@ -17,6 +17,7 @@ targets.forEach(target => {
     })
     .from(target, {opacity: 0, duration: 0.2}, 0)
     .to(target, {opacity: 0, duration: 0.2}, 0.8)
+<<<<<<< HEAD
   });
 
   targets.forEach(target => {
@@ -68,3 +69,6 @@ setInterval(() => {
     v.currentTime = delay;
 }, 70)
 
+=======
+  });
+>>>>>>> parent of 47a6f8c (Adding animation)
